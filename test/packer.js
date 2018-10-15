@@ -22,6 +22,11 @@ describe('packer: writes', function() {
     done();
   });
 
+  it('should automatically add @seedcss/ seed packs (from package.json)', function(done) {
+    assert.equal(true, output.includes('pack/@seedcss/seed-color-scheme/_index'));
+    done();
+  });
+
   it('should automatically prefix seed packs with @import', function(done) {
     assert.equal(true, output.includes('@import'));
     done();
