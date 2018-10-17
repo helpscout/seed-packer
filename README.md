@@ -1,6 +1,8 @@
-# seed-packer [![Build Status](https://travis-ci.org/helpscout/seed-packer.svg?branch=master)](https://travis-ci.org/helpscout/seed-packer) [![npm version](https://badge.fury.io/js/seed-packer.svg)](https://badge.fury.io/js/seed-packer)
+# seed-packer
 
-Automatically adds seed packs in your .scss build!
+[![Build Status](https://travis-ci.org/helpscout/seed-packer.svg?branch=master)](https://travis-ci.org/helpscout/seed-packer) [![npm version](https://badge.fury.io/js/seed-packer.svg)](https://badge.fury.io/js/seed-packer)
+
+> Automatically adds seed packs in your .scss build!
 
 ## Install
 ```
